@@ -8,10 +8,10 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.in28minutes.springboot</groupId>
-	<artifactId>student-services</artifactId>
+	<groupId>com.wipro.firstSpringBootApp</groupId>
+	<artifactId>sampleSpring1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>student-services</name>
+	<name>sampleSpring1</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
