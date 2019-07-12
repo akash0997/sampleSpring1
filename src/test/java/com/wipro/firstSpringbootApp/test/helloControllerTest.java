@@ -13,13 +13,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
-@AutoConfigureMockMvc
+@RunWith(SpringRunner.class)//enable Runner class and provide Spring testing functionality to Junit tests
+@SpringBootTest//starts up the app context to be used in the tests
+@AutoConfigureMockMvc//helps in testing controllers explictly starting a Servlet container
 
 public class helloControllerTest {
 	
-	@Autowired
+	@Autowired//auto wire bean 
     private MockMvc mvc;
 
     @Test
