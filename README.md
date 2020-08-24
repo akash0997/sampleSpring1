@@ -1,5 +1,4 @@
 # sampleSpring1
-hi
-hello
+sample spring project
 
 
